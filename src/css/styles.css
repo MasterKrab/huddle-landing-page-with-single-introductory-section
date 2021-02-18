@@ -107,11 +107,13 @@ body{
 .introduction__link{
    display: inline-block;
    background-color: var(--white);
+   color: var(--violet);
    text-decoration: none;
    margin-top: 10px;
    padding: 15px 4.5rem;
    border-radius: 60px;
    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
+   transition: background-color 0.3s;
 }
 
 @media screen and (min-width: 1090px){
@@ -139,6 +141,10 @@ body{
    border-radius: 50%;
    font-size: 15px;
    color: var(--white);
+}
+
+.social-list__name{
+   font-size: 0;
 }
 
 @media screen and (min-width: 1090px){
