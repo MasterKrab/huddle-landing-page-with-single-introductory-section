@@ -51,8 +51,7 @@ body{
 
 .introduction{
    text-align: center;
-   margin-left: auto;
-   margin-right: auto;
+   margin: auto;
 }
 
 @media screen and (min-width: 1090px){
