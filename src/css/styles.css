@@ -135,6 +135,10 @@ body{
    list-style: none;
 }
 
+.social-list__link{
+   text-decoration: none;
+}
+
 .social-list__icon{
    border: 1px solid var(--white);
    padding: 5px 6px;
